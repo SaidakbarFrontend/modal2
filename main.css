@@ -1,0 +1,58 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .form > * {
+        width: 100%;
+      }
+      li {
+        padding-bottom: 12px;
+        border-bottom: 2px solid black;
+      }
+
+    h2{
+      border-radius: 23px;
+      color: cornflowerblue;
+      font-weight: 400;
+      font-size: 19px;
+    }
+
+    select{
+      border-radius: 23px;
+      color: aqua;
+      background-color: salmon;
+    }
+
+    input{
+      border-radius: 23px;
+      background-color: darkblue;
+      color: darkolivegreen;
+    }
+
+    option{
+      border-radius: 23px;
+      color: black ;
+      background-color: rgba(44, 64, 137, 0.744);
+    }
+
+    #btn{
+      border-radius: 19px;
+      color: wheat;
+      background-color: saddlebrown;
+    }
+
+    .list{
+      background-color: black;
+      color: coral;
+    }
